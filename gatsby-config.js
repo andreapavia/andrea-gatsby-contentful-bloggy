@@ -37,5 +37,19 @@ module.exports = {
         icon: "src/favicon.png",
       },
     },
-  ],
+    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Cormorant`,
+            file: `https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&display=swap`,
+          },
+        ],
+      },
+    },
+  ]
 }

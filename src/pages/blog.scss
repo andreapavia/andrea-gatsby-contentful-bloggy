@@ -1,0 +1,24 @@
+@use "../styles/variables";
+
+
+body {
+    background-color: variables.$background-1;
+    font-family: 'Cormorant', serif;
+    width: 100vw;
+    height: 100vh;
+
+    div.ball{
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+         
+        mix-blend-mode: difference;
+        
+    }
+}
