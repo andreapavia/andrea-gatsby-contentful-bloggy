@@ -48,6 +48,10 @@ module.exports = {
             name: `Cormorant`,
             file: `https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&display=swap`,
           },
+          {
+            name: `Amiri`,
+            file: `https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&display=swap`,
+          },
         ],
       },
     },
